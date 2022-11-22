@@ -4,6 +4,7 @@ import com.orbitbank.bankservicemain.model.Admin;
 import com.orbitbank.bankservicemain.model.Partner;
 import com.orbitbank.bankservicemain.service.BankService;
 
+import com.orbitbank.bankservicemain.service.EmailSenderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -16,6 +17,8 @@ public class BankController {
 
     @Autowired
     private BankService bankService;
+
+
 
 
 

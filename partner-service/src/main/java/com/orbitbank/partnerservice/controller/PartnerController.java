@@ -25,4 +25,6 @@ public class PartnerController {
         return partnerService.getAllPartners();
     }
 
+
+
 }
