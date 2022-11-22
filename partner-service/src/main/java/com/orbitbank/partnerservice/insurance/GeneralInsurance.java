@@ -58,5 +58,8 @@ public class GeneralInsurance {
         }
     }
 
-    private Long premium;
+    private double premium = Math.pow((1-(10/100)),vehicleAge)
+            *(10*(insuredPersonAmount+thirdpartyInsuredAmount)/100);
+
+
 }

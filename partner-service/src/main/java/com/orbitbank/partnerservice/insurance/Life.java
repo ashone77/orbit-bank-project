@@ -11,7 +11,6 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.time.LocalDate;
 import java.time.Period;
-import java.util.Date;
 
 @Document(collection = "life_insurance")
 @Getter
@@ -48,4 +47,6 @@ public class Life {
 
     private int insuredAmount;
     private int premium;
+
+
 }
