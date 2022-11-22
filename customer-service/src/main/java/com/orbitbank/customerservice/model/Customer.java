@@ -20,6 +20,8 @@ public class Customer {
     private String customerId;
     private String firstName;
     private String lastName;
+    private String email;
+    private String phone;
     private String dob;
     private String city;
     private String district;
@@ -28,4 +30,5 @@ public class Customer {
     private String panNo;
     private String aadhaarNo;
     private String accNo;
+    private String accountStatus="active";
 }

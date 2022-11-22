@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class PartnerService {
 
@@ -15,5 +17,9 @@ public class PartnerService {
 
     public Partner save(Partner partner) {
         return partnerRepository.save(partner);
+    }
+
+    public List<Partner> getAllPartners() {
+        return partnerRepository.findAll();
     }
 }
