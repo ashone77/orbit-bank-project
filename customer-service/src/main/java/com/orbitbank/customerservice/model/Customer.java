@@ -31,4 +31,6 @@ public class Customer {
     private String aadhaarNo;
     private String accNo;
     private String accountStatus="active";
+
+
 }
