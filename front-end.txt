@@ -1,0 +1,27 @@
+Front End
+
+1. Landing Page (index page) ---> 
+		(Navbar) --> About us, Contact , Login
+		2. Admin Login
+		3. Parter Login
+		4. Partner Sign Up
+
+5. Admin Dashboard
+	(Navbar) --> LogOut
+	Stats -- > Counts (Policies, Partners,Authorized partners, Pending Authorization
+						, No. General Insurance, No. Life, No. Health)
+
+	6. Customer Details 
+	7. Partner Details
+	8. Policy Details
+	9. Premium Calculator
+
+10. Partner Dashboard 
+	(Navbar) --> LogOut
+	Stats --> (List of policies)
+	11. Customer (customerId)
+	12. Policy Details (policyId)
+	13. Add Policy --> New Menu --> types of Insurance --> Form for mapping to bank.
+	14. Commission Calculator
+	
+
