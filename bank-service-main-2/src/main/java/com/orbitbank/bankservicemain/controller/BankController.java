@@ -19,9 +19,6 @@ public class BankController {
     private BankService bankService;
 
 
-
-
-
     @PostMapping("/adminLogin")
     public Boolean adminLogin(@RequestBody Admin admin){
         if(admin.getUsername().equals("admin") && admin.getPassword().equals("orbit_bank")){
